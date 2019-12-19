@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/hlt-rp-app/precache-manifest.362376d4d8836bb4228ecd91c1a39043.js"
+  "/hlt-rp-app/precache-manifest.1cd62ff03565e16b78963b14cecfdacd.js"
 );
 
 self.addEventListener('message', (event) => {
