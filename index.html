@@ -2,64 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Self Introduction</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Charming Chihuahua</title>
     <style>
+        /* Simple styling to make the page look nice */
         body {
-            background: #181818;
-            color: #f1f1f1;
-            font-family: 'Segoe UI', Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
             display: flex;
-            flex-direction: column;
-            align-items: center;
             justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
         }
+
         .container {
-            background: #232323;
-            padding: 2rem 2.5rem;
-            border-radius: 12px;
-            box-shadow: 0 4px 24px rgba(0,0,0,0.4);
-            max-width: 400px;
+            background-color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             text-align: center;
+            max-width: 500px;
         }
+
         h1 {
-            margin-bottom: 0.5em;
-            color: #90caf9;
+            color: #333;
+            margin-bottom: 0.5rem;
         }
-        p {
-            margin-bottom: 1em;
-            line-height: 1.6;
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 1.5rem;
         }
-        a {
-            color: #90caf9;
-            text-decoration: none;
-            transition: color 0.2s;
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            border: 4px solid #fff3cd; /* A subtle border */
         }
-        a:hover {
-            color: #42a5f5;
+
+        .footer-text {
+            margin-top: 1.5rem;
+            font-size: 0.9rem;
+            color: #888;
         }
     </style>
 </head>
 <body>
+
     <div class="container">
-        <h1>Hello, I'm Chayapol!</h1>
-        <img src="images.jpeg" alt="Animated Image" style="width: 120px; border-radius: 50%; animation: spin 3s linear infinite; display: block; margin: 0 auto 1em auto;">
-        <style>
-        @keyframes spin {
-            0% { transform: rotate(0deg);}
-            100% { transform: rotate(360deg);}
-        }
-        </style>
-        <p>
-            Welcome to my personal website.<br>
-            I'm a passionate developer interested in web technologies, open source, and learning new things.
-        </p>
-        <p>
-            <a href="https://github.com/mchayapol" target="_blank">Visit my GitHub</a>
+        <h1>Hello, Chihuahua!</h1>
+        <p class="subtitle">Small dog, big personality.</p>
+        
+        <img src="https://images.unsplash.com/photo-1629740032638-d75611488c02?q=80&w=1000&auto=format&fit=crop" 
+             alt="A cute tan Chihuahua looking at the camera">
+
+        <p class="footer-text">
+            Chihuahuas are known for their loyalty, charm, and big-dog attitude.
         </p>
     </div>
+
 </body>
 </html>
